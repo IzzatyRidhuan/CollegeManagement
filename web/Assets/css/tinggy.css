@@ -1,0 +1,214 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 23, 2018, 5:45:18 PM
+    Author     : Nur atikah
+*/
+
+body
+{
+	background: linear-gradient(#f0f0f0, #d9d9d9);
+	font-family:century gothic;
+}
+	
+#banner
+ {
+    text-transform:uppercase;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing:2px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin: 3px;
+
+ }
+
+#box
+{
+	margin:auto;
+	border:1px solid;
+	width:400px;
+	padding:50px;
+	position:relative;
+	top:10%;
+}
+  
+  
+h1, h2, h3
+{
+	text-transform:uppercase;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing:2px;
+	color: black;
+}
+
+h4
+{
+	text-transform:uppercase;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing:2px;
+	color: black;
+	padding:2px;
+}
+
+#colorbox
+{
+	position:relative;
+	background-color: #808080;
+	text-shadow: 0.5px 0.5px 2px Gray;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	padding:10px;
+	-webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+
+#colorbox:hover
+{
+	background: linear-gradient(to right, #ff6666 ,#fac905);
+	text-shadow: 0.5px 0.5px 2px Gray;
+}
+
+b
+{
+	text-align:center;
+	letter-spacing:1px;
+	color: black;
+}
+
+div.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    border: 3px solid #808080;
+}
+
+.container /*container for form*/
+{	
+  	max-width: 400px;
+  	width: 100%;
+  	margin: 0 auto;
+  	position: relative;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	width:256px;
+	height:256px;
+	border-radius:50%;
+	border:3px solid #808080;
+	
+	}
+
+/*----------------------------------------------------------------[BUTTON]*/
+ button 
+ {
+ 	position: relative;
+ 	width: 100%;
+    background-color: #f0f0f0; 
+    border: 3px solid #808080;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+  
+	margin-top:10px;
+   -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+button:hover 
+{
+	border: 3px solid black;
+	background: linear-gradient(to right, #ff6666 ,#fac905);
+	color:white;
+}
+
+/*----------------------------------------------------------------[INPUT]*/
+input[type=text],input[type=password]{
+    
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #777;
+}
+
+input[type=password]:focus {
+    border: 3px solid #777;
+}
+
+/*----------------------------------------------------------------[BARS]*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	color: black;
+    background: linear-gradient(to right, #ff6666 ,#fac905);
+}
+
+li a.active {
+    color: white;
+    background-color: #808080;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+	
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
